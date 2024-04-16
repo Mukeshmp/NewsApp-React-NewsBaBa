@@ -9,7 +9,7 @@ export class NavBar extends Component {
             <div>
                 <nav className="navbar navbar-expand-lg navbar-success bg-warning">
                     <div className="container-fluid">
-                        <Link className="navbar-brand" to="/" style={{ color: "red" }}><b>NewsMonkey</b></Link>
+                        <Link className="navbar-brand" to="/" style={{ color: "red" }}><b>NewsBaBa</b></Link>
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>
                         </button>
@@ -25,8 +25,6 @@ export class NavBar extends Component {
                                 <li className="nav-item"><Link className="nav-link" to="/science">Science</Link></li>
                                 <li className="nav-item"><Link className="nav-link" to="/sports">Sports</Link></li>
                                 <li className="nav-item"><Link className="nav-link" to="/technology">Technology</Link></li>
-
-
                             </ul>
                         </div>
                     </div>
